@@ -1,0 +1,136 @@
+.main{
+    top:2em;
+}
+
+.main .heading{
+    text-align:center;
+    margin-left:0;
+}
+.uploader {
+    position: relative;
+    top: 2em;
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 3px 9px 20px 0px rgb(0 0 0 / 28%);
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    font-size:14px;
+}
+
+
+form {
+    padding: 20px 30px;
+}
+
+
+input[type="text"],select,textarea,input#fileToUpload{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0px 0px 25px 0;
+    box-sizing: border-box;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    font-family:inherit;
+    color: inherit;
+}
+
+textarea{
+    border-radius:22px;
+}
+
+.inputflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top:10px;
+    justify-content:space-between;
+}
+
+.subject,input#fileToUpload{
+    flex:35%;
+    margin-right:10px;
+}
+
+.topic{
+    flex:55%;
+}
+
+.radios {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.radios input{
+    margin:0 10px;
+}
+
+.button{
+    width:30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    background:#000;
+    color:#ffffff;
+    border: 2px solid #000;
+    border-radius: 30px;
+    margin-top: 1em;
+}
+
+.button:hover{
+    color: #ffffff;
+    background:#ff8a8a;
+    border: 2px solid #ff8a8a;
+}
+
+.error{
+    margin-top:0;
+    color:#ff0000;
+}
+
+.file{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    background: #fff;
+    color: #000000;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    margin-top: 1em;
+    padding: 10px 19px;
+}
+
+.file:hover{
+    color:#ffffff;
+    background:#000;
+    border:2px solid #000;
+}
+
+.file span{
+    color:#6a6a6a;
+}
+.uploader input:focus, input:active {
+  background-color:#FFFFFF;
+}
+
+select{
+    background: transparent;
+}
+
+select option{
+  background: #ffffff;
+  color:#000;
+  font-size:14px;
+}
+

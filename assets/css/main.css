@@ -1,0 +1,274 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.snav{
+        position: fixed;
+        z-index:2;
+	}
+	
+.snav .navleft h2 {
+    position: relative;
+    font-weight: 100;
+    margin: 0px;
+    float: left;
+    margin-left: 1em;
+    font-size: 2.1em;
+    font-family: 'Yesteryear', cursive;
+    color: #000;
+}
+	
+.navleft ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0px -3px 20px 0px rgb(0 0 0 / 62%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.addbtn{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+.addbtn:hover{
+    background-color:#ff8a8a;
+  color:#ffffff;
+}
+.snav .navleft li {
+  float:right ;
+  color:#000000;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    margin: 0 5px;
+    margin-top: 5px;
+     transition-duration: 0.4s;
+}
+
+.snav .navleft ul .navright{
+        float: left;
+}
+
+.snav .navleft li a {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+   transition-duration: 0.4s;
+  
+}
+
+.snav .navleft li a i{
+    padding: 0px 5px;
+}
+
+.snav .navleft li:hover {
+  background-color:#ff8a8a;
+  color:#ffffff;
+  
+}
+
+.snav .navleft li a:hover{
+    color:#ffffff;
+}
+
+.main{
+     
+  font-size: 22px;
+  text-align: center;
+      position: relative;
+    top: 4em;
+
+}
+
+.textcont{
+    position: relative;
+    top: 4em;
+}
+
+.main .container{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-cont{
+     flex: 30%;
+}
+.sub{
+    margin: 20px;
+    border-radius: 62px;
+    box-shadow: 9px 11px 20px 0px rgb(0 0 0 / 47%);
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sub p{
+    margin:0;
+    padding: 30px 0px;
+
+}
+.disclaimer{
+    display:none;
+}
+
+#a{
+        background-color: #2e2e2e;
+        transition-duration: 0.4s;
+}
+
+#b{
+    
+    background-color: #df2727;
+     transition-duration: 0.4s;
+
+}
+
+#c{
+        background-color: #2694fd;
+        transition-duration: 0.4s;
+}
+
+#d{
+        background-color: #36c331;
+        transition-duration: 0.4s;
+}
+
+#e{
+        background-color: #c12c88;
+        transition-duration: 0.4s;
+}
+
+#f{
+        background-color: #ef9e2e;
+        transition-duration: 0.4s;
+}
+
+#a:hover{
+    background-color:#000;
+}
+#b:hover{
+    background-color:#000;
+}
+#c:hover{
+    background-color:#000;
+}
+#d:hover{
+    background-color:#000;
+}
+#e:hover{
+    background-color:#000;
+}
+#f:hover{
+    background-color:#000;
+}
+
+
+.search-box{
+   width :50%;
+   margin:auto;
+}
+
+
+.searchbox {
+    padding: 0px 15px;
+    border:2px solid #ff8a8a;
+    border-radius:30px;
+    display:flex;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+.button {
+  padding: 10px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border:0;
+}
+
+.button:hover {
+  color: white;
+}
+
+.searchbox input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 0;
+    font-size:16px;
+    
+}
+
+.searchbox input:focus, input:active {
+  outline:none;
+  background-color:#FFFFFF;
+}
+
+.searchbox i{
+    font-size: 18px;
+    color: #0000008c;
+    padding: 8px 5px;
+    transition-duration: 0.4s;
+}
+.searchbox i:hover{
+    color: #ff8a8a;
+}
+
+
+.main .heading{
+    top:0;
+    
+}
+.wrappers{
+    top:2em;
+}
+
+.noteform{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+.noteform textarea, .noteform input{
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.noteform button{
+    width: 12vw;
+}

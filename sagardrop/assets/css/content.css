@@ -1,0 +1,495 @@
+.main{
+    
+}
+.searchbox{
+    margin-bottom:3em;
+}
+.wrappers{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+        
+}
+
+.wrap{
+    flex: 20%;
+    background: #000000;
+    color: #ffffff;
+    margin: 25px;
+    border-radius: 22px;
+    box-shadow: 9px 11px 20px 0px rgb(0 0 0 / 71%);
+    max-width: 26%;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 22px;
+}
+.wrap .tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrap .tagsub{
+    flex: 70%;
+    color:#ffdf00;
+}
+
+.wrap .tagger{
+    font-size: 15px;
+    background: #ffdf00;
+    flex: 35%;
+    padding: 9px 8px;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+}
+
+.wrap .thumb i{
+    font-size: 30px;
+    color: #ffa1a1;
+}
+.wrap .disp p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.wrap .disp p span{
+    color:#ffffff52;
+    margin-left: 10px;
+}
+
+
+.main .heading{
+    position:relative;
+    text-align:left;
+    margin-left:40px;
+}
+.options {
+    position: relative;
+    top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fff0f0;
+    width: 24%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    border-radius: 99px;
+    box-shadow: 0px 11px 20px 0px rgb(0 0 0 / 21%);
+    font-size: 30px;
+}
+
+.options .tab{
+    margin: 0px 32px;
+
+}
+
+.options .tab div:hover{
+    transform:scale(1.2);
+}
+
+.options .tab p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.disp a{
+    display: block;
+    text-align: center;
+    padding: 11px 11px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    width: 25%;
+    border-radius: 30px;
+    font-size: 13px;
+    margin:0 5px;
+}
+
+.disp .viewa{
+    color:#ffffff;
+    background:#000;
+    border: 2px solid #ff8a8a;
+}
+
+.disp .viewa:hover{
+    color: #000000;
+    background: #ff8a8a ;
+}
+
+.disp .downa{
+    color: #000;
+    background: #ffdf00;
+    border: 2px solid#ffdf00;
+}
+
+.disp .downa:hover{
+    color: #fff;
+    background: #000;
+}
+
+.disp a i{
+    padding: 0px 5px;
+}
+
+
+.disp .allbtn{
+    display:flex;
+    align-items:center;
+}
+.disp .allbtn .delbtn{
+    color:#f00;
+    margin-left:20px;
+    transition-duration: 0.4s;
+    font-size:16px;
+    
+}
+.disp .allbtn .delbtn:hover{
+    color:#ffffff;
+    
+}
+
+.bodycover{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #00000070;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    transition-duration: 0.4s;
+}
+
+.delprompt{
+    POSITION: fixed;
+    TOP: 8em;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    background: #000000d1;
+    color: #FFFFFFFF;
+    z-index: 5;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px 2px rgb(35 35 35);
+    transition-duration: 0.4s;
+}
+
+
+.mainprompt{
+    width: 38%;
+    margin: 0 auto;
+}
+
+.promptbody{
+    padding:45px 20px ;
+}
+
+.promptbody .head{
+    font-size:23px;
+    color:#ffdf00;
+    margin-bottom:40px;
+}
+
+.promptbody a {
+    margin:15px 20px 0px 20px ;
+    text-align: center;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.4s;
+    background: #000000;
+    width: 20%;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.promptbody a:hover{
+    background: #ff8a8a;
+    color: #000;
+}
+
+
+.uplodcover{
+    width:100%;
+    position: absolute;
+    top: 30%;
+}
+
+.uploader {
+    font-size: 16px;
+    width: 35%;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 3px 9px 20px 0px rgb(0 0 0 / 28%);
+    border: 2px solid #ff8a8a;
+    border-radius: 50px;
+    font-size:14px;
+    background:#ffe5e5;
+    position:relative;
+    top:2em;
+}
+
+
+form {
+    padding: 13px;
+}
+
+
+input#fileToUpload{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0px 0px 25px 0;
+    box-sizing: border-box;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    font-family:inherit;
+    color: inherit;
+}
+
+
+.inputflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content:space-between;
+}
+
+.subject,input#fileToUpload{
+    flex:35%;
+    margin-right:10px;
+}
+
+.button{
+    width:30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    background:#ff8e8e;
+    color:#ffffff;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    padding:8px;
+}
+
+.button:hover{
+    color: #ffffff;
+    background:#000;
+    border: 2px solid #ff8a8a;
+}
+
+.file{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    background: #000;
+    color: #fff;
+    border: 2px solid #ff8a8a;
+    border-radius: 30px;
+    padding: 10px 19px;
+}
+
+.file:hover{
+    color:#000;
+    background:#fff;
+    border:2px solid #ff8a8a;
+}
+
+.file span{
+    color:#6a6a6a;
+}
+
+.message{
+    position: relative;
+    width: 100%;
+    color: red;
+}
+
+@media screen and (max-width:1280px) {
+    .uploader{
+        width:45%;
+        top:0;
+    }
+    .wrap{
+        margin:14px;
+    }
+    .disp a{
+        width:30%;
+    }
+    .search-box{
+        width:60%;
+    }
+    .delprompt{
+        width:40%;
+    }
+    .wrappers{
+        margin-bottom:3em;
+    }
+}
+
+
+@media screen and (max-width:1120px) {
+    .uploader{
+        width:50%;
+    }
+    .wrap{
+        max-width:40%;
+        margin:22px;
+    }
+    .promptbody .head {
+        font-size: 18px;
+    }
+    .promptbody a{
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    
+    .uploader{
+        width:70%;
+        
+    }
+    .search-box{
+        width:70%;
+    }
+    .wrap{
+        margin:18px;
+    }
+    .wrappers{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+     
+    }
+    
+    
+}
+
+@media screen and (max-width:820px) {
+
+    .wrap{
+        margin:10px;
+    }
+    .delprompt{
+        width:56%;
+    }
+    .mainprompt {
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width:720px) {
+    
+    .uploader{
+        width:85%;
+        
+    }
+    .search-box{
+        width:85%;
+    }
+    .wrap {
+        margin: 16px;
+        max-width: 62%;
+    }
+    
+}
+
+@media screen and (max-width: 620px){
+    .wrap {
+        margin: 16px;
+        max-width: 62%;
+    }
+    .delprompt{
+        width:62%;
+    }
+    .mainprompt {
+        width: 60%;
+    }
+}
+@media screen and (max-width:520px) {
+    
+    .uploader{
+        width:92%;
+        
+    }
+    .search-box{
+        width:95%;
+    }
+    .wrap{
+        max-width:80%;
+    }
+     .delprompt{
+        width:80%;
+    }
+    .mainprompt {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    .button {
+        font-size: 12px;
+        padding: 6px;
+        margin: 12px 0 0 0;
+    }
+    .uploader{
+        border-radius:11px;
+    }
+    .inputflex{
+        justify-content:center;
+    }
+    .snav .navleft h2{
+        margin-left: 10px;
+        font-size: 1.5em;
+    }
+    .snav .navleft li{
+        font-size:10px;
+        
+    }
+    .snav .navleft li a{
+        padding:5px;
+    }
+    .message{
+        font-size:14px;
+    }
+    .file{
+        font-size:12px;
+    }
+    .delprompt{
+        width:92%;
+    }
+    .mainprompt {
+        width: 92%;
+    }
+    .promptbody {
+        padding: 30px 12px;
+    }
+    .promptbody .head {
+        font-size: 15px;
+    }
+    .promptbody a {
+        font-size: 10px;
+    }
+    .disp a{
+        font-size:11px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    
+}
